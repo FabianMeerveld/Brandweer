@@ -50,7 +50,7 @@ def startberekening():
         session['next_url'] = url_for('terugtocht_werk')
         return redirect(url_for('feedback'))
 
-    return render_template('terugtocht_heen.html', begindruk=begindruk, reservedruk=reservedruk)
+    return render_template('terugtocht_start.html', begindruk=begindruk, reservedruk=reservedruk)
 
 @app.route('/terugtocht_werk', methods=['GET', 'POST'])
 def terugtocht_werk():
