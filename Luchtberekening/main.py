@@ -7,7 +7,7 @@ app.secret_key = 'geheime_sleutel'  # Nodig voor sessies
 
 begindrukLijst = [270, 275, 280, 285, 290, 295, 300, 305, 310, 315, 320, 325, 330]
 aankomstdrukLijst = [190, 200, 210, 220, 230, 240, 250]
-luchtverbruikLijst = [40, 50, 60, 70, 80, 90, 100]
+luchtverbruikLijst = [40, 60, 80, 100]
 reservedruk = 55
 
 def terugtochtHeen(begindruk, reservedruk):
